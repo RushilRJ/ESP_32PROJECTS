@@ -3,9 +3,9 @@
 #include <Adafruit_NeoPixel.h>
 #include <Preferences.h>
 
-// WiFi credentials (replace privately!)
-const char* ssid = "SAU-Conference";
-const char* password = "sau@123456";
+
+const char* ssid = "SSID";
+const char* password = "password";
 
 // RSS feed
 const char* url = "https://aicf.in/category/arbiters-news/feed/";
