@@ -3,15 +3,14 @@
 #include <WiFiClientSecure.h>
 
 // === CONFIGURATION ===
-const char* sta_ssid     = "SAU-Net";
-const char* sta_password = "sau12345";  // "" if open/no WPA password
+const char* sta_ssid     = "SSID";
+const char* sta_password = "password";  // "" if open/no WPA password
 
-const char* ap_ssid      = "MyRoom-Alexa";
+const char* ap_ssid      = "MyRoom";
 const char* ap_password  = "supersecret123";  // 8+ characters
 
-// *** REPLACE PRIVATELY WITH YOUR REAL CREDENTIALS (NEVER SHARE/PUBLIC!) ***
-const char* portal_username = "2013064";  // your roll no/email
-const char* portal_password = "123456";            // your password
+const char* portal_username = "ID";  
+const char* portal_password = "PASS";            // your password
 
 IPAddress ap_ip(192, 168, 4, 1);
 IPAddress ap_gateway(192, 168, 4, 1);
